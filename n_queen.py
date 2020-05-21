@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
     while collnums > 0:
         copy_queens = queens
-        for i in range (n):
+        for i in range (n-1):
             for j in range(i+1,n):
                 copy_table = np.zeros((n, n), dtype=int)
                 aux = copy_queens[i]
